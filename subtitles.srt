@@ -1,536 +1,108 @@
 1
-00:00:29,300 --> 00:00:29,900
-so
+00:00:00,000 --> 00:00:02,500
+Here's a quick method to test. If your
 
 2
-00:00:30,600 --> 00:00:32,900
-Chef what makes you
+00:00:02,500 --> 00:00:04,900
+application back in is stateless or not,
 
 3
-00:00:32,900 --> 00:00:34,800
-think that I'm going to let the whitest man that I
+00:00:05,600 --> 00:00:07,700
+fire up your client and log
 
 4
-00:00:34,800 --> 00:00:36,700
-have ever seen interview for our firm
+00:00:07,700 --> 00:00:09,900
+in and send few requests to
 
 5
-00:00:38,200 --> 00:00:39,700
-because I have an appointment.
+00:00:09,900 --> 00:00:10,600
+your back end.
 
 6
-00:01:07,900 --> 00:01:08,600
-You can do this.
+00:00:11,700 --> 00:00:13,800
+After that, stop sending requests, go to the
 
 7
-00:01:27,800 --> 00:01:29,900
-Kid, what is wrong with you? You look like
+00:00:13,800 --> 00:00:15,500
+back and restart the process or the
 
 8
-00:01:29,900 --> 00:01:31,800
-you're 11 years old. I was lead to
+00:00:15,500 --> 00:00:17,500
+Entire Computer. Where the backend
 
 9
-00:01:31,800 --> 00:01:32,500
-puberty.
+00:00:17,500 --> 00:00:19,800
+application lives. Wait for your
 
 10
-00:01:33,500 --> 00:01:34,100
-Okay.
+00:00:19,800 --> 00:00:21,500
+back, end to come back up and
 
 11
-00:02:05,900 --> 00:02:07,900
-Excuse me. I was thinking about
+00:00:21,500 --> 00:00:23,500
+running and then go back to the
 
 12
-00:02:07,900 --> 00:02:09,800
-going for a swim or the pool facilities here.
+00:00:23,500 --> 00:00:25,700
+client and then send
 
 13
-00:02:09,800 --> 00:02:10,200
-Nice.
+00:00:25,700 --> 00:00:26,800
+another request.
 
 14
-00:02:10,900 --> 00:02:12,800
-Of course sir. It's the children Hotel
+00:00:27,800 --> 00:00:29,900
+If that request a new request
 
 15
-00:02:13,000 --> 00:02:15,900
-best in the city. What
+00:00:29,900 --> 00:00:31,900
+succeeds, that means your application back in
 
 16
-00:02:15,900 --> 00:02:17,800
-is the pool clothes and killed the
+00:00:31,900 --> 00:00:33,700
+is completely stateless. If
 
 17
-00:02:17,800 --> 00:02:19,300
-time? Yes,
+00:00:33,700 --> 00:00:35,900
+that request fails, that means your
 
 18
-00:02:21,700 --> 00:02:22,700
-ten o'clock.
+00:00:35,900 --> 00:00:37,500
+application. Depends on some sort of a
 
 19
-00:02:24,000 --> 00:02:24,300
-Thanks.
+00:00:37,500 --> 00:00:39,300
+state that knows no longer there.
 
 20
-00:02:29,300 --> 00:02:31,000
-Saw your gun. You think that's him?
+00:00:40,300 --> 00:00:42,800
+Typical stateless applications or protocols is
 
 21
-00:02:37,000 --> 00:02:39,700
-That's the description I didn't go in the room and
+00:00:42,800 --> 00:00:44,900
+HTTP or DNS
 
 22
-00:02:39,700 --> 00:02:41,000
-exactly is just walking by
+00:00:45,800 --> 00:00:47,900
+while websockets or TCP, or
 
 23
-00:02:45,800 --> 00:02:46,700
-stay on the radio.
+00:00:47,900 --> 00:00:49,800
+example of a stateful protocols.
 
 24
-00:03:09,700 --> 00:03:10,700
-Rick Sorkin
+00:00:51,100 --> 00:00:53,700
+While HGTV does use TCP HTTP
 
 25
-00:03:11,800 --> 00:03:13,100
-Rick Sorkin
+00:00:53,700 --> 00:00:55,900
+at that application layer if that
 
 26
-00:03:16,800 --> 00:03:17,700
-Rick Sorkin,
+00:00:55,900 --> 00:00:57,800
+TCP connection is distort. It just
 
 27
-00:03:18,800 --> 00:03:20,600
-excuse me. Mr. Sorkin you are
-
-28
-00:03:20,600 --> 00:03:22,900
-five minutes late. Is there a reason why I should let
-
-29
-00:03:22,900 --> 00:03:23,300
-you in.
-
-30
-00:03:26,300 --> 00:03:28,900
-I'm just trying to ditch the cops. Okay. I don't really care if you
-
-31
-00:03:28,900 --> 00:03:29,600
-let me in or not.
-
-32
-00:03:38,800 --> 00:03:40,200
-Mr. Specter will be right with you.
-
-33
-00:03:41,600 --> 00:03:43,900
-What can I get you anything a coffee
-
-34
-00:03:43,900 --> 00:03:45,100
-or bottled water?
-
-35
-00:03:49,700 --> 00:03:51,800
-Hi Rick Sorkin. I respect her
-
-36
-00:03:51,800 --> 00:03:53,700
-nice to meet you. She have a seat here.
-
-37
-00:03:55,100 --> 00:03:57,000
-Whoa, what's this?
-
-38
-00:04:04,700 --> 00:04:05,500
-Can I help you?
-
-39
-00:04:07,300 --> 00:04:07,600
-No.
-
-40
-00:04:15,200 --> 00:04:17,900
-Excuse me. Mr. Tate. My name
-
-41
-00:04:17,900 --> 00:04:19,700
-is Louis Litt. I work for Pearson Hardman.
-
-42
-00:04:20,200 --> 00:04:22,500
-I have some information that I think will lead you to the
-
-43
-00:04:22,500 --> 00:04:24,900
-conclusion that you're better served in Pearson with me
-
-44
-00:04:24,900 --> 00:04:25,900
-as your lead counsel.
-
-45
-00:04:27,700 --> 00:04:28,300
-I'm listening.
-
-46
-00:04:31,700 --> 00:04:33,300
-How the hell did you know they were to the
-
-47
-00:04:33,300 --> 00:04:35,500
-police? I read this novel in
-
-48
-00:04:35,500 --> 00:04:36,600
-elementary school.
-
-49
-00:04:37,700 --> 00:04:39,900
-Cops are staking out a hotel one of them dresses as
-
-50
-00:04:39,900 --> 00:04:41,500
-a bellhop the others a man in a
-
-51
-00:04:41,500 --> 00:04:43,900
-suit and it was the exact same thing. You
-
-52
-00:04:43,900 --> 00:04:45,900
-read a novel, you know Elementary
-
-53
-00:04:45,900 --> 00:04:47,700
-School what I like to
-
-54
-00:04:47,700 --> 00:04:48,200
-read.
-
-55
-00:04:49,600 --> 00:04:51,800
-And why'd you ask them what time it was throw them
-
-56
-00:04:51,800 --> 00:04:53,900
-off? And what kind of drug dealer
-
-57
-00:04:53,900 --> 00:04:55,600
-asks a cop with time it is when he's got a
-
-58
-00:04:55,600 --> 00:04:57,800
-briefcase full of pot right? We
-
-59
-00:04:57,800 --> 00:04:58,700
-should hire you
-
-60
-00:04:59,600 --> 00:05:01,600
-Jesus. I'd give you the 25 Grand is a
-
-61
-00:05:01,600 --> 00:05:03,900
-signing bonus. I'll take it.
-
-62
-00:05:05,000 --> 00:05:07,900
-Unfortunately, we only hire from Harvard and you
-
-63
-00:05:07,900 --> 00:05:09,700
-not only did not go to Harvard Law
-
-64
-00:05:09,700 --> 00:05:10,200
-School.
-
-65
-00:05:11,500 --> 00:05:13,100
-You haven't even gone to any law school.
-
-66
-00:05:13,900 --> 00:05:15,800
-What if I told you that I consume knowledge like no
-
-67
-00:05:15,800 --> 00:05:17,700
-one you've ever met and I've actually passed the
-
-68
-00:05:17,700 --> 00:05:19,800
-bar. I'd say you're full of
-
-69
-00:05:19,800 --> 00:05:20,400
-crap.
-
-70
-00:05:21,900 --> 00:05:23,600
-That's a Barbie legal handbook right there,
-
-71
-00:05:23,600 --> 00:05:24,100
-right?
-
-72
-00:05:25,100 --> 00:05:27,400
-Open it up read me something anything.
-
-73
-00:05:33,000 --> 00:05:35,900
-Civil liability associated with agency is based
-
-74
-00:05:35,900 --> 00:05:37,700
-on several factors, including the
-
-75
-00:05:37,700 --> 00:05:39,900
-deviation of the agent from his path the
-
-76
-00:05:39,900 --> 00:05:41,900
-reasonable inference of agency on behalf of the
-
-77
-00:05:41,900 --> 00:05:43,700
-plaintiff and the nature of the
-
-78
-00:05:43,700 --> 00:05:45,100
-damages themselves.
-
-79
-00:05:46,300 --> 00:05:48,700
-How did you know that I learned it
-
-80
-00:05:49,100 --> 00:05:51,200
-when I studied for the bar?
-
-81
-00:05:53,300 --> 00:05:54,200
-Okay, how it shut?
-
-82
-00:05:55,800 --> 00:05:57,000
-first this laptop
-
-83
-00:05:58,700 --> 00:05:59,700
-I'm going to show you.
-
-84
-00:06:00,800 --> 00:06:02,500
-What a Harvard attorney can do
-
-85
-00:06:03,200 --> 00:06:04,100
-pick a topic.
-
-86
-00:06:06,000 --> 00:06:08,900
-Stock option backdating. Although backdating options is
-
-87
-00:06:08,900 --> 00:06:10,800
-legal violations. Arise
-
-88
-00:06:10,800 --> 00:06:12,900
-related to disclosures under
-
-89
-00:06:12,900 --> 00:06:14,900
-IRC section. 409a
-
-90
-00:06:16,100 --> 00:06:18,500
-you forgot about sarbanes-oxley statute of
-
-91
-00:06:18,500 --> 00:06:20,900
-limitations render. Sarbanes-oxley moot post
-
-92
-00:06:20,900 --> 00:06:22,700
-2007. Well not if you can
-
-93
-00:06:22,700 --> 00:06:24,900
-find actions to cover up the violation
-
-94
-00:06:24,900 --> 00:06:26,600
-as established in the sixth circuit May
-
-95
-00:06:26,600 --> 00:06:27,600
-2008.
-
-96
-00:06:29,000 --> 00:06:31,200
-It's impressive, but you're sitting at a computer.
-
-97
-00:06:33,400 --> 00:06:34,500
-playing hearts
-
-98
-00:06:36,500 --> 00:06:38,900
-Sorry, if you want to beat me you're gonna have to do it as something
-
-99
-00:06:38,900 --> 00:06:40,700
-else. How can you
-
-100
-00:06:40,700 --> 00:06:42,700
-know all that? I told you I like to
-
-101
-00:06:42,700 --> 00:06:44,900
-read and once I read something
-
-102
-00:06:44,900 --> 00:06:46,800
-I understand it and once I understand
-
-103
-00:06:46,800 --> 00:06:47,200
-it.
-
-104
-00:06:48,200 --> 00:06:50,800
-I never forget it when I take the bar.
-
-105
-00:06:53,000 --> 00:06:55,700
-This dickhead bet me I couldn't pass it without going to law school.
-
-106
-00:06:59,600 --> 00:07:01,700
-Okay, look this is all
-
-107
-00:07:02,000 --> 00:07:04,500
-pretty fascinating stuff, but I'm afraid I got to get back to work.
-
-108
-00:07:06,000 --> 00:07:08,900
-I'll make sure the Serpico isn't around waiting for you.
-
-109
-00:07:24,100 --> 00:07:26,600
-You want this job so much. Why don't you just go to law
-
-110
-00:07:26,600 --> 00:07:27,100
-school?
-
-111
-00:07:28,900 --> 00:07:30,700
-When I was in college, it was my dream to be a
-
-112
-00:07:30,700 --> 00:07:32,800
-lawyer. I needed some money
-
-113
-00:07:33,500 --> 00:07:35,900
-and Trevor convinced me to memorize
-
-114
-00:07:35,900 --> 00:07:37,700
-this math test and sell
-
-115
-00:07:37,700 --> 00:07:38,100
-it.
-
-116
-00:07:41,000 --> 00:07:43,700
-Turns out we sold it to the Dean's daughter. I
-
-117
-00:07:43,700 --> 00:07:45,300
-lost my scholarship. I got kicked out of
-
-118
-00:07:45,300 --> 00:07:46,200
-school.
-
-119
-00:07:50,800 --> 00:07:52,500
-I got knocked into a different life.
-
-120
-00:07:54,000 --> 00:07:56,300
-And I have been wishing for a way back ever since.
-
-121
-00:08:01,100 --> 00:08:03,500
-Let me tell you something. This is an
-
-122
-00:08:03,500 --> 00:08:05,500
-elementary school. This is hard work
-
-123
-00:08:05,700 --> 00:08:07,700
-long hours high pressure.
-
-124
-00:08:07,800 --> 00:08:09,600
-I need a grown goddamn man.
-
-125
-00:08:11,000 --> 00:08:13,900
-You give me this and I will work as hard as it takes
-
-126
-00:08:13,900 --> 00:08:15,700
-to school those Harvard douches and become the
-
-127
-00:08:15,700 --> 00:08:17,500
-best lawyer you have ever seen.
-
-128
-00:08:18,400 --> 00:08:20,900
-I'm inclined to give you a shot. But what if I decided to go another
-
-129
-00:08:20,900 --> 00:08:22,400
-way I say that's fair
-
-130
-00:08:23,600 --> 00:08:25,600
-and sometimes I like to hang out with people who aren't that
-
-131
-00:08:25,600 --> 00:08:27,800
-bright. It was just to see how the other half
-
-132
-00:08:27,800 --> 00:08:28,200
-lives.
-
-133
-00:08:29,400 --> 00:08:31,800
-Move over. I'm emailing The Firm. I
-
-134
-00:08:31,800 --> 00:08:33,300
-just found our next associate.
+00:00:57,800 --> 00:00:58,700
+creates another one.
 
