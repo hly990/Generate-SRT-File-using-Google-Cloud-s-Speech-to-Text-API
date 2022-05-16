@@ -27,6 +27,6 @@ def download_video(link):
     return video_path
 
 
-path = download_video("https://youtu.be/ho9nKj3lFkU")
+path = download_video("https://youtu.be/ZTavfFXOTzY")
 
 print(path)

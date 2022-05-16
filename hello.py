@@ -88,10 +88,20 @@ for dict_origin in dict_origin_list:
 
 	#分析content长度
 	content = dict_origin["content"]
-	if len(content) >20:
-		end_time_float = begin_time_float + 2
+	if len(content) > 10 and len(content) < 15:
+		end_time_float = begin_time_float + 3
+
+	elif len(content) >= 15 and len(content) < 25:
+		end_time_float = begin_time_float + 3.8
+
+	elif len(content) >= 25 and len(content) < 30:
+		end_time_float = begin_time_float + 4.3
+
+	elif len(content) >= 30:
+		end_time_float = begin_time_float + 4.6
+
 	else:
-		end_time_float = begin_time_float + 1
+		end_time_float = begin_time_float + 2
 
 	#保存end_time_float替换下一个begin_time_float
 	tmp_time_float = end_time_float
@@ -105,14 +115,14 @@ for dict_origin in dict_origin_list:
 	dict2 = {}
 
 	#追加begin_time,end_time到origin list
-	dict_origin["begin_time"] = begin_time_float
-	dict_origin["end_time"] = end_time_float
+	dict_origin["begin_time"] = round(begin_time_float,1)
+	dict_origin["end_time"] = round(end_time_float,1)
 
 	# print(begin_time_float)
 
 	flag +=1
 
-#print(dict_origin_list)
+# print(dict_origin_list)
 
 #把修改后的数据写到新的srt文件中
 target_subtitles = open("target_subtitles.srt", "w") 

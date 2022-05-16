@@ -36,17 +36,17 @@ def upload_blob(bucket_name, source_file_name, destination_blob_name):
         )
     )
 
-def long_running_recognize(storage_uri, channels, sample_rate):
+def long_running_recognize_cn(storage_uri, channels, sample_rate):
     
     client = speech_v1.SpeechClient()
 
     config = {
-        "language_code": "en_US", #zh   en_US
+        "language_code": "zh", #zh   en_US
         "sample_rate_hertz": int(sample_rate),
         "encoding": enums.RecognitionConfig.AudioEncoding.ENCODING_UNSPECIFIED,
         "audio_channel_count": int(channels),
         "enable_word_time_offsets": True,
-         "model": "video",  #  default  video
+         "model": "default",  #  default  video
         "enable_automatic_punctuation":True
     }
     audio = {"uri": storage_uri}
@@ -128,9 +128,9 @@ os.environ["http_proxy"] = "http://127.0.0.1:1092"
 os.environ["https_proxy"] = "http://127.0.0.1:1092"
 
 #upload
-video_to_audio("upload/The-best-5-programming.mp4","The-best-5-programming.mp3",2,445032,44100)
+video_to_audio("upload/life-1.mp4","life-1.mp3",2,445032,44100)
 
-res = long_running_recognize("gs://media990/audios/The-best-5-programming.mp3",8,16000)
+res = long_running_recognize_cn("gs://media990/audios/life-1.mp3",8,16000)
 sub = subtitle_generation(res)
 print(sub)
 

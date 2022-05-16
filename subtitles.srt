@@ -1,108 +1,33 @@
 1
-00:00:00,000 --> 00:00:02,500
-Here's a quick method to test. If your
+00:00:00,000 --> 00:00:02,400
+如果你想学习编码，可以试试这五种编程语言中的一种。
 
 2
-00:00:02,500 --> 00:00:04,900
-application back in is stateless or not,
+00:00:02,400 --> 00:00:04,600
+Python是最简单的一种，它读起来像英语。
 
 3
-00:00:05,600 --> 00:00:07,700
-fire up your client and log
+00:00:04,900 --> 00:00:06,800
+你可以把它用于各种应用，它能为你处理繁重的工作。
 
 4
-00:00:07,700 --> 00:00:09,900
-in and send few requests to
+00:00:06,900 --> 00:00:08,800
+Javascript在所有的浏览器中都使用，而且非常流行。
 
 5
-00:00:09,900 --> 00:00:10,600
-your back end.
+00:00:08,800 --> 00:00:10,800
+Java仍然是工作中最需要的语言之一，尽管它相当难学。
 
 6
-00:00:11,700 --> 00:00:13,800
-After that, stop sending requests, go to the
+00:00:10,800 --> 00:00:12,700
+但你会欣赏它的复杂性。谷歌的Go是增长最快的编程语言之一，
 
 7
-00:00:13,800 --> 00:00:15,500
-back and restart the process or the
+00:00:13,000 --> 00:00:15,900
+因为它的简单性和力量。C Sharp与Java相似，
 
 8
-00:00:15,500 --> 00:00:17,500
-Entire Computer. Where the backend
+00:00:15,900 --> 00:00:17,900
+主要用于游戏和后端服务等地方。
 
-9
-00:00:17,500 --> 00:00:19,800
-application lives. Wait for your
-
-10
-00:00:19,800 --> 00:00:21,500
-back, end to come back up and
-
-11
-00:00:21,500 --> 00:00:23,500
-running and then go back to the
-
-12
-00:00:23,500 --> 00:00:25,700
-client and then send
-
-13
-00:00:25,700 --> 00:00:26,800
-another request.
-
-14
-00:00:27,800 --> 00:00:29,900
-If that request a new request
-
-15
-00:00:29,900 --> 00:00:31,900
-succeeds, that means your application back in
-
-16
-00:00:31,900 --> 00:00:33,700
-is completely stateless. If
-
-17
-00:00:33,700 --> 00:00:35,900
-that request fails, that means your
-
-18
-00:00:35,900 --> 00:00:37,500
-application. Depends on some sort of a
-
-19
-00:00:37,500 --> 00:00:39,300
-state that knows no longer there.
-
-20
-00:00:40,300 --> 00:00:42,800
-Typical stateless applications or protocols is
-
-21
-00:00:42,800 --> 00:00:44,900
-HTTP or DNS
-
-22
-00:00:45,800 --> 00:00:47,900
-while websockets or TCP, or
-
-23
-00:00:47,900 --> 00:00:49,800
-example of a stateful protocols.
-
-24
-00:00:51,100 --> 00:00:53,700
-While HGTV does use TCP HTTP
-
-25
-00:00:53,700 --> 00:00:55,900
-at that application layer if that
-
-26
-00:00:55,900 --> 00:00:57,800
-TCP connection is distort. It just
-
-27
-00:00:57,800 --> 00:00:58,700
-creates another one.
 
