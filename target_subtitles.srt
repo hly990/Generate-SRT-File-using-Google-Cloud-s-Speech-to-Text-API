@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:02,000
+Here's a quick method to test. If your
+
+2
+00:00:02,000 --> 00:00:04,000
+application back in is stateless or not,
+
+3
+00:00:04,000 --> 00:00:06,000
+fire up your client and log
+
+4
+00:00:06,000 --> 00:00:08,000
+in and send few requests to
+
+5
+00:00:08,000 --> 00:00:09,000
+your back end.
+
+6
+00:00:09,000 --> 00:00:11,000
+After that, stop sending requests, go to the
+
+7
+00:00:11,000 --> 00:00:13,000
+back and restart the process or the
+
+8
+00:00:13,000 --> 00:00:15,000
+Entire Computer. Where the backend
+
+9
+00:00:15,000 --> 00:00:17,000
+application lives. Wait for your
+
+10
+00:00:17,000 --> 00:00:19,000
+back, end to come back up and
+
+11
+00:00:19,000 --> 00:00:21,000
+running and then go back to the
+
+12
+00:00:21,000 --> 00:00:22,000
+client and then send
+
+13
+00:00:22,000 --> 00:00:23,000
+another request.
+
+14
+00:00:23,000 --> 00:00:25,000
+If that request a new request
+
+15
+00:00:25,000 --> 00:00:27,000
+succeeds, that means your application back in
+
+16
+00:00:27,000 --> 00:00:29,000
+is completely stateless. If
+
+17
+00:00:29,000 --> 00:00:31,000
+that request fails, that means your
+
+18
+00:00:31,000 --> 00:00:33,000
+application. Depends on some sort of a
+
+19
+00:00:33,000 --> 00:00:35,000
+state that knows no longer there.
+
+20
+00:00:35,000 --> 00:00:37,000
+Typical stateless applications or protocols is
+
+21
+00:00:37,000 --> 00:00:38,000
+HTTP or DNS
+
+22
+00:00:38,000 --> 00:00:40,000
+while websockets or TCP, or
+
+23
+00:00:40,000 --> 00:00:42,000
+example of a stateful protocols.
+
+24
+00:00:42,000 --> 00:00:44,000
+While HGTV does use TCP HTTP
+
+25
+00:00:44,000 --> 00:00:46,000
+at that application layer if that
+
+26
+00:00:46,000 --> 00:00:48,000
+TCP connection is distort. It just
+
+27
+00:00:48,000 --> 00:00:49,000
+creates another one.
+
